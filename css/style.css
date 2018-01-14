@@ -16,5 +16,94 @@ body{
 	background: #fff;
 }
 ul{
-	list-style: none;
+	list-style: none; 
 }
+ul li{
+	float: left;
+}
+a{
+	color: #767676;
+}
+
+.header-conteiner{
+	background: #dcdcdc;
+	width: 100%;
+	overflow: hidden;
+
+}
+	.mar_left{
+
+			margin-left: 10%;	
+	}	
+	.mar_right{
+
+			margin-right: 10%;
+	}
+	.gray_76{
+		color: #767676;
+	}
+	.header__logo{
+		padding-top: 64px;
+		padding-bottom: 64px;
+		float: left;
+
+
+	}
+	.header__kontakts{
+		float: right;
+		margin-top: 46px;
+	}
+		.header__kontakts-tels{
+			font-size: 40px; 
+			font-family: 'Open Sans Condensed', sans-serif;
+			line-height: 1.2;
+			text-align: right;
+		}
+		.header__kontakts-osviaz{
+			font-size: 24px;
+			font-family: 'Times New Roman', sans-serif;
+			text-align: right;
+
+		}
+		.header__kontakts-osviaz a{
+			border-bottom: 1px dashed #767676;
+			text-decoration: none;
+		}
+		.header__kontakts-osviaz a:hover{
+			color:#B6B8AB;
+			border-bottom: 1px dashed #B6B8AB;
+		}
+
+
+
+
+
+.menu{
+	background: #777777;
+	padding-top: 25px;
+	padding-bottom: 33px;
+	font-size: 30px;
+	overflow: hidden;
+}
+.menu ul li{
+line-height: 1;
+}
+
+.menu ul li a{
+max-height: 30px;
+color: #fff;
+border-right: 2px solid #fff;
+font-size: 30px;
+text-decoration: none;
+padding-right: 23px;
+padding-left: 23px;
+display: table;
+/*border-bottom: 2px solid transparent;*/
+}
+.menu ul li:last-child{
+border-right: none;
+}
+.menu ul li a:hover{
+text-decoration: underline;
+/*border-bottom: 2px solid #fff;*/
+	}

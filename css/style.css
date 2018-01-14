@@ -87,12 +87,12 @@ a{
 }
 .menu ul li{
 line-height: 1;
+border-right: 2px solid #fff;
 }
 
 .menu ul li a{
 max-height: 30px;
 color: #fff;
-border-right: 2px solid #fff;
 font-size: 30px;
 text-decoration: none;
 padding-right: 23px;

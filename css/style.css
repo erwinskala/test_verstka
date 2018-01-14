@@ -48,6 +48,10 @@ a{
 		float: left;
 
 
+
+
+
+/*HEADER*/
 	}
 	.header__kontakts{
 		float: right;
@@ -77,7 +81,7 @@ a{
 
 
 
-
+/*MENU*/
 .menu{
 	background: #777777;
 	padding-top: 25px;
@@ -107,3 +111,10 @@ border-right: none;
 text-decoration: underline;
 /*border-bottom: 2px solid #fff;*/
 	}
+
+
+
+/*SLIDER*/
+.slides{
+	background: #FFF url(../img/bg_slider.gif) repeat repeat;
+}

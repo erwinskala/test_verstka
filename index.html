@@ -8,6 +8,7 @@
     document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
     </script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 </head>
 
 <body>
@@ -27,17 +28,52 @@
             </div>
         </header>
         <menu>
-        	<div class="menu">
-        		<ul class="mar_left mar_right">
-        			<li><a href="#">Главная</a></li>
-        			<li><a href="#">Каталог</a></li>
-        			<li><a href="#">Доставка и оплата </a></li>
-        			<li><a href="#">Прайс-лист</a></li>
-        			<li><a href="#">Контакты</a></li>
-        		</ul>
-        	</div>
+            <div class="menu">
+                <ul class="mar_left mar_right">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Доставка и оплата </a></li>
+                    <li><a href="#">Прайс-лист</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
         </menu>
+        <slider>
+            <section class="slider">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <img src="img/slider1.png" />
+                        </li>
+                        <li>
+                            <img src="img/slider2.png" />
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+        </slider>
     </div>
+
+
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+    <script defer src="js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
 </body>
 
 </html>

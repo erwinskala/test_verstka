@@ -52,18 +52,17 @@
                 </div>
             </section>
         </slider>
-        <div class='content'>
-            <div class="content__breadkramps mar_left">
+        <div class='content mar_left mar_right'>
+            <div class="content__breadkramps">
                 <ul>
                     <li><a href="#">Главная</a></li>
                     <li><a href="#">Каталог</a></li>
                     <li><a href="#" class="link_active">Бытовая техника</a></li>
                 </ul>
             </div>
-
             <div class='catalog'>
-                <slidebar class="">
-                    <div class="category mar_left">
+                <slidebar class="catalog-slidebar">
+                    <div class="category">
                         <ul class="category-menu">
                             <li><a href="#">Автомобили</a></li>
                             <li><a href="#" class="active">Бытовая техника</a>
@@ -82,26 +81,110 @@
                     </div>
                 </slidebar>
                 <div class="catalog-posts">
+                    <div class="catalog-posts-conteiner">
+                        <div class="catalog-post">
+                            <div class="catalog-post__img">
+                                <img src="img/no_foto.jpg" alt="">
+                            </div>
+                            <div class="post-block">
+                                <div class="post-block__title">
+                                    Самый клевый чайник, который надо купить!
+                                </div>
+                                <div class="post-block-conteiner">
+                                    <div class="post-block-conteiner__footer">
+                                        <div class="post-block__price">
+                                            1 900 р.
+                                        </div>
+                                        <div class="post-block__korzina">
+                                            <img src="img/korzina.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-post">
+                            <div class="catalog-post__img">
+                                <img src="img/no_foto.jpg" alt="">
+                            </div>
+                            <div class="post-block">
+                                <div class="post-block__title">
+                                    Самый клевый чайник, который надо купить!
+                                </div>
+                                <div class="post-block-conteiner">
+                                    <div class="post-block-conteiner__footer">
+                                        <div class="post-block__price">
+                                            1 900 р.
+                                        </div>
+                                        <div class="post-block__korzina">
+                                            <img src="img/korzina.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-post">
+                            <div class="catalog-post__img">
+                                <img src="img/no_foto.jpg" alt="">
+                            </div>
+                            <div class="post-block">
+                                <div class="post-block__title">
+                                    Самый клевый чайник, который надо купить!
+                                </div>
+                                <div class="post-block-conteiner">
+                                    <div class="post-block-conteiner__footer">
+                                        <div class="post-block__price">
+                                            1 900 р.
+                                        </div>
+                                        <div class="post-block__korzina">
+                                            <img src="img/korzina.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog-posts-conteiner">
+                        <div class="catalog-post">
+                            <div class="catalog-post__img">
+                                <img src="img/no_foto.jpg" alt="">
+                            </div>
+                            <div class="post-block">
+                                <div class="post-block__title">
+                                    Самый клевый чайник, который надо купить!
+                                </div>
+                                <div class="post-block-conteiner">
+                                    <div class="post-block-conteiner__footer">
+                                        <div class="post-block__price">
+                                            1 900 р.
+                                        </div>
+                                        <div class="post-block__korzina">
+                                            <img src="img/korzina.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                </div>
+
             </div>
-        </div>
-    </div>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script>
-    window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')
-    </script>
-    <script defer src="js/jquery.flexslider.js"></script>
-    <script defer src="js/main_js.js"></script>
-    <script type="text/javascript">
-    $(window).load(function() {
-        $('.flexslider').flexslider({
-            animation: "slide",
-            start: function(slider) {
-                $('body').removeClass('loading');
-            }
-        });
-    });
-    </script>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+            <script>
+            window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')
+            </script>
+            <script defer src="js/jquery.flexslider.js"></script>
+            <script defer src="js/main_js.js"></script>
+            <script type="text/javascript">
+            $(window).load(function() {
+                $('.flexslider').flexslider({
+                    animation: "slide",
+                    start: function(slider) {
+                        $('body').removeClass('loading');
+                    }
+                });
+            });
+            </script>
 </body>
 
 </html>

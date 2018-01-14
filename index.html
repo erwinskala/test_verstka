@@ -48,32 +48,60 @@
                         <li>
                             <img src="img/slider2.png" />
                         </li>
-
                     </ul>
                 </div>
             </section>
         </slider>
+        <div class='content'>
+            <div class="content__breadkramps mar_left">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#" class="link_active">Бытовая техника</a></li>
+                </ul>
+            </div>
+
+            <div class='catalog'>
+                <slidebar class="">
+                    <div class="category mar_left">
+                        <ul class="category-menu">
+                            <li><a href="#">Автомобили</a></li>
+                            <li><a href="#">Бытовая техника</a>
+                                <ul class="category__inner">
+                                    <li><a href="#">Микроволновки</a></li>
+                                    <li><a href="#">Холодильники</a></li>
+                                    <li><a href="#">Посудомоечные машины</a></li>
+                                    <li><a href="#">Чайники</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Мобильная техника</a></li>
+                            <li><a href="#">Одежда</a></li>
+                            <li><a href="#">Автомобили</a></li>
+                            <li><a href="#">Недвижимость</a></li>
+                        </ul>
+                    </div>
+                </slidebar>
+                <div class="catalog-posts">
+                </div>
+            </div>
+        </div>
     </div>
-
-
-
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')
+    </script>
     <script defer src="js/jquery.flexslider.js"></script>
-
-  <script type="text/javascript">
-
-    $(window).load(function(){
-      $('.flexslider').flexslider({
-        animation: "slide",
-        start: function(slider){
-          $('body').removeClass('loading');
-        }
-      });
+    <script defer src="js/main_js.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('.flexslider').flexslider({
+            animation: "slide",
+            start: function(slider) {
+                $('body').removeClass('loading');
+            }
+        });
     });
-  </script>
-
+    </script>
 </body>
 
 </html>

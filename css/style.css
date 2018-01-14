@@ -16,7 +16,7 @@ body{
 	background: #fff;
 }
 ul{
-	list-style: none; 
+	list-style-type: none; 
 }
 ul li{
 	float: left;
@@ -30,6 +30,9 @@ a{
 	width: 100%;
 	overflow: hidden;
 
+}
+li a.active{
+	text-decoration: underline !important;
 }
 	.mar_left{
 
@@ -164,16 +167,37 @@ ul.category-menu{
 overflow: hidden;
 	/*list-style-type: disc;*/
 }
+.category-menu a:hover{
+color: #3C3D34;
+}
+ul.category-menu a{
+text-decoration: none;
+font-size: 18px;
+}
 .category ul li{
 	float: none;
+	line-height: 1.7;
 
 }
+
 ul.category__inner{
-	/*display: block;*/
-	list-style-type: disc;
+
+
+	list-style-type: disc !important;
 	overflow: hidden;
+	padding-left: 10px;
+
 }
-ul.category__inner li{
+.category__inner{
+
+	}
+.category__inner li{
 margin-left: 5px;
 float: none;
+	}
+	.category__inner li a{
+	font-size: 14px;
+	}
+	.category__inner li a.active{
+color: #010101;
 	}

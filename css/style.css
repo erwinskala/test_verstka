@@ -106,6 +106,7 @@ li a.active {
     padding-bottom: 33px;
     font-size: 30px;
     overflow: hidden;
+    /*display: none;*/
 }
 
 .menu ul li {
@@ -137,7 +138,9 @@ li a.active {
 
 
 /*SLIDER*/
-
+.slider{
+	/*display: none;*/
+}
 .slides {
     background: #FFF url(../img/bg_slider.gif) repeat repeat;
 }
@@ -153,6 +156,7 @@ li a.active {
 
 .catalog-slidebar {
     width: 27%;
+
 }
 
 .content__breadkramps {
@@ -160,6 +164,7 @@ li a.active {
     padding: 10px 0 8px;
     display: block;
     overflow: hidden;
+    margin-bottom: 21px;
 }
 
 .content__breadkramps ul li a {
@@ -195,11 +200,11 @@ li a.active {
 
 .category {
     overflow: hidden;
-    background: #000;
-    width: 17.5%;
+    /*background: #000;*/
+    width: 19%;
     float: left;
-    padding-bottom: 32000px;
-    margin-bottom: -32000px;
+    /*padding-bottom: 32000px;*/
+    margin-bottom: 32000px;
 }
 
 ul.category-menu {
@@ -251,6 +256,7 @@ ul.category__inner {
 
 .catalog-posts {
     width: 100%;
+
 }
 
 .catalog-posts-conteiner {
@@ -266,7 +272,8 @@ ul.category__inner {
     width: 20%;
     float: left;
     padding: 20px 2.5% 15px;
-    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
 }
 
 .post-block__price {
@@ -288,6 +295,17 @@ ul.category__inner {
 .post-block__korzina {
     float: right;
     padding-right: 14px;
+    /*margin-top: 10px;*/
+line-height: 37px;
+
+}
+.post-block__korzina img{
+	vertical-align: middle;
+
+}
+.post-block__korzina img:hover{
+	cursor: pointer;
+
 }
 
 .catalog-post__img img {
